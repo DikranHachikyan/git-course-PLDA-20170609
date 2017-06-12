@@ -14,15 +14,9 @@
 /*
  * 
  */
-enum {
-    PUSH = 2,
-    POP,
-    UNSHIFT,
-    SHIFT,
-    STRINS,
-    PRINT,
-    EXIT
-};
+
+enum {  PUSH = 2,  POP,  UNSHIFT, SHIFT,  STRINS, PRINT,  EXIT  };
+
 int main(int argc, char** argv) {
     Array *arr = NULL;
     int opt = 0;
