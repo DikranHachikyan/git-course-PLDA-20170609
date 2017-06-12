@@ -15,7 +15,7 @@
  * 
  */
 enum {
-    PUSH = 1,
+    PUSH = 2,
     POP,
     UNSHIFT,
     SHIFT,
@@ -68,6 +68,6 @@ int main(int argc, char** argv) {
                         exit(0);
         }
     }
-    return (EXIT_SUCCESS);
+    return 0;
 }
 
