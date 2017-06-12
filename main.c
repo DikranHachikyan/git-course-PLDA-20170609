@@ -51,12 +51,10 @@ int main(int argc, char** argv) {
                           fprintf(stdout,"item:%d unshifted!\n",t);
                           break;
             case SHIFT: res = shift(arr, &t); 
-                        if( res != -1)
-                          {
+                        if( res != -1){
                             fprintf(stdout, "item:%d shifted!\n",t);
                           }
-                        else
-                          {
+                        else{
                             fprintf(stdout, "The array is empty\n");
                           }
                         break;
@@ -68,6 +66,6 @@ int main(int argc, char** argv) {
                         exit(0);
         }
     }
-    return (EXIT_SUCCESS);
+    return (0);
 }
 
